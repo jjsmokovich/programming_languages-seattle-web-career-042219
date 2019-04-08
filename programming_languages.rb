@@ -10,6 +10,5 @@ def reformat_languages(languages)
       new_languages[language_name][:style] << style
     end
   end
-  new_languages[:javascript][:style] << :oo
   new_languages
 end
