@@ -8,4 +8,5 @@ reformatted = {}
     end
   end
   reformatted
+  reformatted
 end
