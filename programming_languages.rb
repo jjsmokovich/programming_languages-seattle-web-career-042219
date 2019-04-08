@@ -5,7 +5,6 @@ reformatted = {}
       reformatted[name] ||= attributes
       reformatted[name][:style] = []
       reformatted[name][:style] << category
-      reformatted[:javascript][:style] << category
     end
   end
   reformatted
