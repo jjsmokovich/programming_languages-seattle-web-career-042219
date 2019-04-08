@@ -1,6 +1,6 @@
 def reformat_languages(languages)
   new_languages = {}
-  languages.each do |type, language|
+  languages.each do |oo, language|
     language.each do |language_name, attribute|
       if new_languages[language_name] == nil
           new_languages[language_name] = attribute
