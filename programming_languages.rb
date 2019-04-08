@@ -32,7 +32,7 @@ languages = {
 
 def reformat_languages(languages)
 reformatted = {}
-  languages.each do |category, language|
+  languages.each do |category, type|
     language.each do |name, attributes|
       reformatted[name] ||= attributes
       reformatted[name][:style] = []
