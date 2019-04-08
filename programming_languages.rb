@@ -7,6 +7,6 @@ reformatted = {}
       reformatted[name][:style] << category
     end
   end
-  reformatted
+  reformatted[:javascript][:style] << :oo
   reformatted
 end
