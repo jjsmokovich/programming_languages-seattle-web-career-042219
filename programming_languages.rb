@@ -1,7 +1,7 @@
 
 def reformat_languages(languages)
-  new_languages = {}
-  languages.each do |style, language|
+  new_hash = {}
+  languages.each do |type, language|
     language.each do |language_name, attribute|
       if new_languages[language_name] == nil
           new_languages[language_name] = attribute
