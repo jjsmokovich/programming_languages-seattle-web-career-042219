@@ -5,7 +5,7 @@ languages.each do |style, language|
   new_languages[name] ||= attributes
   new_languages[name][:style]=[]
   new_languages[name][:style]<< style
-end
-end
+    end
+  end
 new_languages
 end
